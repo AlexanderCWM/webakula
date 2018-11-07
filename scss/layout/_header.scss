@@ -1,0 +1,220 @@
+header{
+background: url(../img/header_banner.png);
+
+.wrapper{
+    width: 100%;
+    .header_wrap{
+        width: 100%;
+    position: fixed;
+    background: #fff;
+    z-index: 1000;
+    }
+}
+    .header-menu{
+        z-index: 1000;
+        display: flex;
+        padding: 30px 0px;
+        background-color: #fff;
+        justify-content: space-between;
+        width: 1300px;
+        top: 0;
+        margin: 0 auto;
+    
+        >ul.main-menu{
+       
+            >li{
+                // position: relative;
+
+              >a{
+                   position: relative;
+            &::after{
+                content: url(../img/angle-down-solid.svg);
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                right: -13px;
+                top: 1px;
+                
+            }
+            }
+            &:last-child{
+               >a{
+                &::after{
+                    content: '';
+                }
+            }
+        }
+        
+        }
+        >li{
+            ul.sub_menu{
+                cursor: default;
+                position: absolute;
+                width: 1000vh;
+                left: 0;
+                background: #fff;
+                top: 115px;
+                display: none;
+                height: 164px;
+                padding-left: 24%;
+
+                    .first_column,.second_column{
+                    display: block;
+                    height: 100%;
+                    li{
+                        display: block;
+    padding: 9px;
+                    }
+                }
+                li{
+                    
+                }
+            }
+            ul.sub_menu.open_menu{
+                display: flex;
+            }
+        }
+        }
+    ul{
+        list-style: none;
+        display: table;
+        height: 38px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 0 ;
+        margin-right: 100px;
+        >li{
+            cursor: pointer;
+            display: table-cell;
+            vertical-align: middle;
+            padding: 0px 15px;
+    }
+}
+.switchers{
+    display: flex;
+    align-items: center;
+    .languages,.currency{
+     margin-right: 30px;
+     position: relative;
+     cursor: pointer;   
+    }
+    .languages_list,
+    .currency_list{
+        display: none;
+        position: absolute;
+    top: 13px;
+    left: -10px;
+    background: #fff;
+    text-decoration: underline;
+        span{
+            display: block;
+            padding: 10px;
+        }
+    }
+    .active{
+        display: block;
+    }
+
+}
+.left_side_menu{
+    display: flex;
+}
+i{
+    font-size: 22px;
+    cursor: pointer;
+}
+img{
+    cursor: pointer;
+}
+}
+ul.menu_icons>li{
+
+    cursor: default;
+}
+h1,h2{
+   padding-top: 220px;
+    line-height: 92px;
+    display: block;
+    font-family: gotham-black;
+    font-size: 90px;
+    color: #ebb03d;
+    text-transform: uppercase;
+    margin-left: 55%;
+}
+h2{
+    padding-top: 0;
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 85px;
+}
+a.banner-link{
+    display: inline-block;
+    font-family: gotham-black;
+    font-size: 16px;
+    background-color: #ebb03d;
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 55%;
+    margin-bottom: 300px;
+}
+}
+.hiden_menu{
+    overflow: auto;
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    background-color: #ebb03d;
+    z-index: 2000;
+    display: none;
+    .mobile_header{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+        .languages {
+            h3{
+            display: block;
+            position: relative;
+                &::after{
+                    content: url(../img/angle-down-solid.svg);
+                    position: absolute;
+                    width: 10px;
+                    height: 10px;
+                    right: -13px;
+                }
+            }
+        }
+        .languages_list{
+            display: none;
+        }
+    }
+    
+    .close_btn{
+        font-size: 65px;
+        cursor: pointer;
+        &:hover{
+            color: #fff;
+        }
+    }
+    ul{
+        margin-top: 5%;
+        text-align: center;
+        color: #020101;
+font-size: 50px;
+font-weight: 700;
+line-height: 100.07px;
+li{
+    a{
+        font-family: gotham-bold;
+        &:hover{
+         color: #ffffff;
+            letter-spacing: 0.5px;
+            background-color: #000000;
+        }
+    }
+}
+    }
+    .mobile_part{
+        display: none;
+    }
+}

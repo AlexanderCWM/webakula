@@ -1,0 +1,187 @@
+.content{
+    background: url(../img/goods_bg.png);
+//  text-align: center;
+ padding-bottom: 100px;
+    .seo_block{
+  
+    
+        .seo_wrapper{
+            width: 100%;
+            background: url(../img/section_bg.png);
+            background-size: inherit;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding: 110px 14.3% 0px 0px;
+        h1.seo_title{
+            padding-bottom: 60px;
+            color: #020101;
+            font-family: "gotham-black";
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 60px;
+            text-transform: uppercase;
+    
+        }
+        .seo_text{
+            color: #171717;
+    font-family: 'gotham-reg';
+    width: 470px;
+    font-size: 15px;
+    font-weight: 400;
+    /* Text style for "Здесь вы" */
+    line-height: 35px;
+    height: 350px;
+    
+    p{
+        padding-bottom: 20px;
+    }
+    .mCSB_scrollTools .mCSB_draggerRail{
+        border-radius: 2px;
+background-color: #d2d2d2;
+
+opacity: 0.3;
+    }
+    .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+        background-color: #ebb03d;
+    }
+        }
+    }
+    }
+}
+.goods_corousel{
+text-align: center;
+max-width: 1200px;
+margin: 150px auto;
+margin-bottom:75px;
+    .good_item{
+        position: relative;
+        // margin-right: 100px;
+        // max-width: 320px;
+        // &:nth-last-child(){
+        //     margin-right: 0;
+        // }
+        .item_img{
+            display: flex;
+    justify-content: center;
+            height: 451px;
+        }
+        .item_name{
+            margin-top: 50px;
+            display: inline-block;
+            max-width: 315px;
+            font-size: 23px;
+        }
+        h2,h3{
+            font-family: "gotham-black";
+font-weight: 400;
+line-height: 28px;
+        }
+        .real_price{
+            font-size: 40px;
+            margin-top: 35px;
+            position: relative;
+            &:after{
+                content: 'опт';
+                font-size: 15px;
+                line-height: 22px;
+                color: #171717;
+                position: absolute;
+                bottom: -5px;
+                right: 85px;
+                font-family: 'gotham-reg';
+            
+            }
+        }
+        .old_price{
+            font-size: 30px;
+            font-family: 'gotham-reg';
+            margin-top: 20px;
+            margin-bottom: 35px;
+            display: inline-block;
+            position: relative;
+            &:after{
+                content: 'розница';
+                font-size: 15px;
+                line-height: 22px;
+                color: #171717;
+                position: absolute;
+                bottom: 0;
+                right: -75px;
+            
+            }
+            
+        }
+        .old_price .sale_price{
+            &:before{
+                content: '';
+                width: 100%;
+                position: absolute;
+                height: 2px;
+                background-color: #f2b743;
+                -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                transform: rotate(9deg);
+                top: 13px;
+            }
+        }
+        .add_cart_btn{
+            font-size: 15px;
+            color: #171717;
+            line-height: 20px;
+            display: block;
+            -webkit-border-radius: 28px;
+            border-radius: 28px;
+            width: 200px;
+            background-color: #f2b743;
+            padding: 20px 45px;
+            margin: 0 auto;
+
+            span{
+                display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    .bag_icon_svg{
+        fill:#000;
+        position: absolute;
+        top: 2px;
+    }
+               
+            }
+
+&:hover{
+    background: #1e1e1e;
+    
+}
+&:hover.add_cart_btn{
+    color: #f2f2f2;
+}
+&:hover.add_cart_btn .bag_icon_svg{
+    fill:#f2f2f2;
+}
+        }
+    }
+    
+}
+.special_offer{
+    font-family: gotham-black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    padding: 25px 12px;
+    background: #f2b743;
+    font-size: 23px;
+}
+.view_more{
+    margin: 0 auto;
+    display: block;
+    color: #171717;
+font-family: "gotham-reg";
+font-size: 14px;
+font-weight: 400;
+line-height: 20.21px;
+text-align: center;
+}

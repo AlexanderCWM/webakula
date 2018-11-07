@@ -1,0 +1,12 @@
+@import "base/_reset";
+@import "base/_fonts";
+@import "layout/_header";
+@import "layout/_footer";
+@import "layout/_content";
+@import "layout/_media";
+@import "components/slick.scss";
+
+.wrapper{
+     width: 1300px;
+    margin: 0 auto;
+}

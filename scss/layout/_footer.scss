@@ -1,0 +1,81 @@
+footer{
+
+    background-color: #1e1e1e;
+    .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .footer_links{
+        display: flex;
+        flex-direction: column;
+        ul.footer_menu{
+            li{
+                padding-right:30px;
+                display: inline-block;
+                a{
+                    display: block;
+                    font-size: 14px;   
+                    font-weight: 400;
+line-height: 100px;
+font-family: 'gotham-reg';
+color: #878787;
+                }
+            }
+        }
+        .footer_contacts{
+            display: flex;
+    justify-content: flex-start;
+    align-items: center;
+            ul.telephones{
+                
+            
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                margin-right: 40px;
+                li{
+                    a{
+                        color: #d2d2d2;
+                        font-family: 'gotham-reg';
+                    }
+                }
+            }
+            .question_btn{
+                margin-right: 60px;
+                border-radius: 25px;
+background-color: #ebad38;
+padding: 15px 45px;
+                color: #171717;
+                
+font-size: 15px;
+font-weight: 700;
+line-height: 20px;
+            }
+        }
+        .socials{
+            font-size: 18px;
+            margin-right: 25px;
+            color: #8e8e8e;
+        }
+    }
+    }
+    .copyright{
+        padding: 40px 0;
+        display: flex;
+        justify-content: space-around;
+        color: #ffffff;
+        font-family: 'gotham-reg';
+        font-size: 14px;
+        border-top: 1px solid #343434;
+        margin-top: 30px;
+        .web_links{
+            display: flex;
+            align-items: center;
+            a{
+                text-decoration: underline;
+                padding-right: 15px;
+            }
+        }
+    }
+    }
